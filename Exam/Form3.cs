@@ -29,17 +29,29 @@ namespace Exam
 
         private void btnAdd3_Click(object sender, EventArgs e)
         {
-
+            cnx.Open();
+            cmd.Connection = cnx;
+            cmd.CommandText = "insert into quest-ouvert(question) values('" + textboxqueouvert.Text + "') ";
+            cmd.ExecuteNonQuery();
+            cnx.Close();
         }
 
         private void btnQancel3_Click(object sender, EventArgs e)
         {
-
+            cnx.Open();
+            cmd.Connection = cnx;
+            cmd.CommandText = "insert into quest-ouvert(question) values('" + textboxqueouvert.Text + "') ";
+            cnx.Close();
         }
 
         private void btnAfficher3_Click(object sender, EventArgs e)
         {
-
+            cmd.CommandText = "select * from quest-ouvert";
+            adapter.SelectCommand = cmd;
+            DataTable dt = new DataTable();
+            dt.Clear();
+            adapter.Fill(dt);
+            dataGridViewQuestOuvert.DataSource = dt;
         }
 
         private void dataGridViewQuestOuvert_CellContentClick(object sender, DataGridViewCellEventArgs e)
