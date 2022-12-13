@@ -46,18 +46,20 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(26, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(49, 13);
+            this.label1.Size = new System.Drawing.Size(73, 20);
             this.label1.TabIndex = 0;
             this.label1.Text = "Question";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(26, 41);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(65, 13);
+            this.label2.Size = new System.Drawing.Size(97, 20);
             this.label2.TabIndex = 1;
             this.label2.Text = "Proposition1";
             this.label2.Click += new System.EventHandler(this.label2_Click);
@@ -65,36 +67,40 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(26, 68);
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(26, 79);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(65, 13);
+            this.label3.Size = new System.Drawing.Size(97, 20);
             this.label3.TabIndex = 2;
             this.label3.Text = "Proposition2";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(26, 108);
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(26, 110);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(65, 13);
+            this.label4.Size = new System.Drawing.Size(97, 20);
             this.label4.TabIndex = 3;
             this.label4.Text = "Proposition3";
             // 
             // btnAdd2
             // 
-            this.btnAdd2.Location = new System.Drawing.Point(80, 190);
+            this.btnAdd2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAdd2.Location = new System.Drawing.Point(46, 190);
             this.btnAdd2.Name = "btnAdd2";
-            this.btnAdd2.Size = new System.Drawing.Size(75, 23);
+            this.btnAdd2.Size = new System.Drawing.Size(109, 39);
             this.btnAdd2.TabIndex = 4;
-            this.btnAdd2.Text = "ADD";
+            this.btnAdd2.Text = "Ajouter";
             this.btnAdd2.UseVisualStyleBackColor = true;
             this.btnAdd2.Click += new System.EventHandler(this.btnAdd2_Click);
             // 
             // btnAfficher
             // 
-            this.btnAfficher.Location = new System.Drawing.Point(381, 190);
+            this.btnAfficher.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAfficher.Location = new System.Drawing.Point(347, 190);
             this.btnAfficher.Name = "btnAfficher";
-            this.btnAfficher.Size = new System.Drawing.Size(75, 23);
+            this.btnAfficher.Size = new System.Drawing.Size(109, 39);
             this.btnAfficher.TabIndex = 5;
             this.btnAfficher.Text = "Afficher";
             this.btnAfficher.UseVisualStyleBackColor = true;
@@ -102,9 +108,10 @@
             // 
             // btnCancel2
             // 
-            this.btnCancel2.Location = new System.Drawing.Point(238, 190);
+            this.btnCancel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCancel2.Location = new System.Drawing.Point(204, 190);
             this.btnCancel2.Name = "btnCancel2";
-            this.btnCancel2.Size = new System.Drawing.Size(75, 23);
+            this.btnCancel2.Size = new System.Drawing.Size(109, 39);
             this.btnCancel2.TabIndex = 6;
             this.btnCancel2.Text = "Annuler";
             this.btnCancel2.UseVisualStyleBackColor = true;
@@ -113,15 +120,15 @@
             // dataGridViewQcm
             // 
             this.dataGridViewQcm.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewQcm.Location = new System.Drawing.Point(532, 63);
+            this.dataGridViewQcm.Location = new System.Drawing.Point(472, 63);
             this.dataGridViewQcm.Name = "dataGridViewQcm";
-            this.dataGridViewQcm.Size = new System.Drawing.Size(227, 179);
+            this.dataGridViewQcm.Size = new System.Drawing.Size(287, 179);
             this.dataGridViewQcm.TabIndex = 7;
             this.dataGridViewQcm.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewQcm_CellContentClick);
             // 
             // textBoxPropos1
             // 
-            this.textBoxPropos1.Location = new System.Drawing.Point(200, 41);
+            this.textBoxPropos1.Location = new System.Drawing.Point(191, 43);
             this.textBoxPropos1.Name = "textBoxPropos1";
             this.textBoxPropos1.Size = new System.Drawing.Size(100, 20);
             this.textBoxPropos1.TabIndex = 8;
@@ -129,7 +136,7 @@
             // 
             // textBoxPropos3
             // 
-            this.textBoxPropos3.Location = new System.Drawing.Point(200, 101);
+            this.textBoxPropos3.Location = new System.Drawing.Point(191, 112);
             this.textBoxPropos3.Name = "textBoxPropos3";
             this.textBoxPropos3.Size = new System.Drawing.Size(100, 20);
             this.textBoxPropos3.TabIndex = 9;
@@ -137,7 +144,7 @@
             // 
             // textBoxPropos2
             // 
-            this.textBoxPropos2.Location = new System.Drawing.Point(200, 68);
+            this.textBoxPropos2.Location = new System.Drawing.Point(191, 81);
             this.textBoxPropos2.Name = "textBoxPropos2";
             this.textBoxPropos2.Size = new System.Drawing.Size(100, 20);
             this.textBoxPropos2.TabIndex = 10;
@@ -145,7 +152,7 @@
             // 
             // textBoxQuest
             // 
-            this.textBoxQuest.Location = new System.Drawing.Point(200, 9);
+            this.textBoxQuest.Location = new System.Drawing.Point(191, 12);
             this.textBoxQuest.Name = "textBoxQuest";
             this.textBoxQuest.Size = new System.Drawing.Size(100, 20);
             this.textBoxQuest.TabIndex = 11;

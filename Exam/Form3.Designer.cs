@@ -40,9 +40,10 @@
             // lblqueouvert
             // 
             this.lblqueouvert.AutoSize = true;
+            this.lblqueouvert.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblqueouvert.Location = new System.Drawing.Point(72, 64);
             this.lblqueouvert.Name = "lblqueouvert";
-            this.lblqueouvert.Size = new System.Drawing.Size(52, 13);
+            this.lblqueouvert.Size = new System.Drawing.Size(77, 20);
             this.lblqueouvert.TabIndex = 0;
             this.lblqueouvert.Text = "Question ";
             // 
@@ -56,9 +57,10 @@
             // 
             // btnAdd3
             // 
-            this.btnAdd3.Location = new System.Drawing.Point(163, 194);
+            this.btnAdd3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAdd3.Location = new System.Drawing.Point(144, 118);
             this.btnAdd3.Name = "btnAdd3";
-            this.btnAdd3.Size = new System.Drawing.Size(75, 23);
+            this.btnAdd3.Size = new System.Drawing.Size(104, 36);
             this.btnAdd3.TabIndex = 3;
             this.btnAdd3.Text = "Ajouter";
             this.btnAdd3.UseVisualStyleBackColor = true;
@@ -66,9 +68,10 @@
             // 
             // btnQancel3
             // 
-            this.btnQancel3.Location = new System.Drawing.Point(289, 194);
+            this.btnQancel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnQancel3.Location = new System.Drawing.Point(302, 118);
             this.btnQancel3.Name = "btnQancel3";
-            this.btnQancel3.Size = new System.Drawing.Size(75, 23);
+            this.btnQancel3.Size = new System.Drawing.Size(104, 36);
             this.btnQancel3.TabIndex = 4;
             this.btnQancel3.Text = "Annuler";
             this.btnQancel3.UseVisualStyleBackColor = true;
@@ -76,9 +79,10 @@
             // 
             // btnAfficher3
             // 
-            this.btnAfficher3.Location = new System.Drawing.Point(413, 194);
+            this.btnAfficher3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAfficher3.Location = new System.Drawing.Point(441, 118);
             this.btnAfficher3.Name = "btnAfficher3";
-            this.btnAfficher3.Size = new System.Drawing.Size(75, 23);
+            this.btnAfficher3.Size = new System.Drawing.Size(104, 36);
             this.btnAfficher3.TabIndex = 5;
             this.btnAfficher3.Text = "Afficher";
             this.btnAfficher3.UseVisualStyleBackColor = true;
@@ -86,10 +90,11 @@
             // 
             // dataGridViewQuestOuvert
             // 
+            this.dataGridViewQuestOuvert.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridViewQuestOuvert.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewQuestOuvert.Location = new System.Drawing.Point(573, 118);
+            this.dataGridViewQuestOuvert.Location = new System.Drawing.Point(144, 178);
             this.dataGridViewQuestOuvert.Name = "dataGridViewQuestOuvert";
-            this.dataGridViewQuestOuvert.Size = new System.Drawing.Size(169, 145);
+            this.dataGridViewQuestOuvert.Size = new System.Drawing.Size(224, 145);
             this.dataGridViewQuestOuvert.TabIndex = 6;
             this.dataGridViewQuestOuvert.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewQuestOuvert_CellContentClick);
             // 
