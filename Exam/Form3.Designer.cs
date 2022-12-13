@@ -80,7 +80,7 @@
             // btnAfficher3
             // 
             this.btnAfficher3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAfficher3.Location = new System.Drawing.Point(441, 118);
+            this.btnAfficher3.Location = new System.Drawing.Point(114, 241);
             this.btnAfficher3.Name = "btnAfficher3";
             this.btnAfficher3.Size = new System.Drawing.Size(104, 36);
             this.btnAfficher3.TabIndex = 5;
@@ -92,9 +92,9 @@
             // 
             this.dataGridViewQuestOuvert.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridViewQuestOuvert.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewQuestOuvert.Location = new System.Drawing.Point(144, 178);
+            this.dataGridViewQuestOuvert.Location = new System.Drawing.Point(270, 206);
             this.dataGridViewQuestOuvert.Name = "dataGridViewQuestOuvert";
-            this.dataGridViewQuestOuvert.Size = new System.Drawing.Size(224, 145);
+            this.dataGridViewQuestOuvert.Size = new System.Drawing.Size(356, 145);
             this.dataGridViewQuestOuvert.TabIndex = 6;
             this.dataGridViewQuestOuvert.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewQuestOuvert_CellContentClick);
             // 

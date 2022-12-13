@@ -83,9 +83,10 @@
             // lbldatedebut
             // 
             this.lbldatedebut.AutoSize = true;
+            this.lbldatedebut.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbldatedebut.Location = new System.Drawing.Point(54, 63);
             this.lbldatedebut.Name = "lbldatedebut";
-            this.lbldatedebut.Size = new System.Drawing.Size(58, 13);
+            this.lbldatedebut.Size = new System.Drawing.Size(86, 20);
             this.lbldatedebut.TabIndex = 1;
             this.lbldatedebut.Text = "date début";
             this.lbldatedebut.Click += new System.EventHandler(this.lbldatedebut_Click);
@@ -93,9 +94,10 @@
             // lbldatefin
             // 
             this.lbldatefin.AutoSize = true;
-            this.lbldatefin.Location = new System.Drawing.Point(54, 92);
+            this.lbldatefin.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbldatefin.Location = new System.Drawing.Point(54, 101);
             this.lbldatefin.Name = "lbldatefin";
-            this.lbldatefin.Size = new System.Drawing.Size(44, 13);
+            this.lbldatefin.Size = new System.Drawing.Size(65, 20);
             this.lbldatefin.TabIndex = 2;
             this.lbldatefin.Text = "Date fin";
             this.lbldatefin.Click += new System.EventHandler(this.lbldatefin_Click);
@@ -103,9 +105,10 @@
             // lblmatiére
             // 
             this.lblmatiére.AutoSize = true;
+            this.lblmatiére.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblmatiére.Location = new System.Drawing.Point(54, 138);
             this.lblmatiére.Name = "lblmatiére";
-            this.lblmatiére.Size = new System.Drawing.Size(42, 13);
+            this.lblmatiére.Size = new System.Drawing.Size(62, 20);
             this.lblmatiére.TabIndex = 3;
             this.lblmatiére.Text = "Matiére";
             this.lblmatiére.Click += new System.EventHandler(this.lblmatiére_Click);
@@ -136,9 +139,10 @@
             // 
             // btnAdd1
             // 
-            this.btnAdd1.Location = new System.Drawing.Point(106, 214);
+            this.btnAdd1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAdd1.Location = new System.Drawing.Point(81, 214);
             this.btnAdd1.Name = "btnAdd1";
-            this.btnAdd1.Size = new System.Drawing.Size(75, 23);
+            this.btnAdd1.Size = new System.Drawing.Size(100, 37);
             this.btnAdd1.TabIndex = 7;
             this.btnAdd1.Text = "Ajouter";
             this.btnAdd1.UseVisualStyleBackColor = true;
@@ -146,9 +150,10 @@
             // 
             // btnAffich
             // 
-            this.btnAffich.Location = new System.Drawing.Point(335, 214);
+            this.btnAffich.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAffich.Location = new System.Drawing.Point(310, 214);
             this.btnAffich.Name = "btnAffich";
-            this.btnAffich.Size = new System.Drawing.Size(75, 23);
+            this.btnAffich.Size = new System.Drawing.Size(100, 37);
             this.btnAffich.TabIndex = 9;
             this.btnAffich.Text = "Afficher";
             this.btnAffich.UseVisualStyleBackColor = true;
@@ -158,7 +163,7 @@
             // 
             this.dataGridViewExam.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridViewExam.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewExam.Location = new System.Drawing.Point(403, 42);
+            this.dataGridViewExam.Location = new System.Drawing.Point(494, 92);
             this.dataGridViewExam.Name = "dataGridViewExam";
             this.dataGridViewExam.Size = new System.Drawing.Size(240, 150);
             this.dataGridViewExam.TabIndex = 10;
@@ -166,9 +171,10 @@
             // 
             // btnCancel1
             // 
-            this.btnCancel1.Location = new System.Drawing.Point(225, 214);
+            this.btnCancel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCancel1.Location = new System.Drawing.Point(200, 214);
             this.btnCancel1.Name = "btnCancel1";
-            this.btnCancel1.Size = new System.Drawing.Size(75, 23);
+            this.btnCancel1.Size = new System.Drawing.Size(100, 37);
             this.btnCancel1.TabIndex = 11;
             this.btnCancel1.Text = "Annuler";
             this.btnCancel1.UseVisualStyleBackColor = true;
