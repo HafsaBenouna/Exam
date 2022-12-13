@@ -31,7 +31,7 @@ namespace Exam
         {
             cnx.Open();
             cmd.Connection = cnx;
-            cmd.CommandText = "insert into quest-ouvert(question) values('" + textboxqueouvert.Text + "') ";
+            cmd.CommandText = "insert into questOuvert(question) values('" + textboxqueouvert.Text + "') ";
             cmd.ExecuteNonQuery();
             cnx.Close();
         }
@@ -40,13 +40,13 @@ namespace Exam
         {
             cnx.Open();
             cmd.Connection = cnx;
-            cmd.CommandText = "insert into quest-ouvert(question) values('" + textboxqueouvert.Text + "') ";
+            cmd.CommandText = "insert into questOuvert(question) values('" + textboxqueouvert.Text + "') ";
             cnx.Close();
         }
 
         private void btnAfficher3_Click(object sender, EventArgs e)
         {
-            cmd.CommandText = "select * from quest-ouvert";
+            cmd.CommandText = "select * from questOuvert";
             adapter.SelectCommand = cmd;
             DataTable dt = new DataTable();
             dt.Clear();
