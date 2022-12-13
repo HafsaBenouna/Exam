@@ -30,6 +30,11 @@
         {
             this.lblqueouvert = new System.Windows.Forms.Label();
             this.textboxqueouvert = new System.Windows.Forms.TextBox();
+            this.btnAdd3 = new System.Windows.Forms.Button();
+            this.btnQancel3 = new System.Windows.Forms.Button();
+            this.btnAfficher3 = new System.Windows.Forms.Button();
+            this.dataGridViewQuestOuvert = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewQuestOuvert)).BeginInit();
             this.SuspendLayout();
             // 
             // lblqueouvert
@@ -47,16 +52,61 @@
             this.textboxqueouvert.Name = "textboxqueouvert";
             this.textboxqueouvert.Size = new System.Drawing.Size(100, 20);
             this.textboxqueouvert.TabIndex = 1;
+            this.textboxqueouvert.TextChanged += new System.EventHandler(this.textboxqueouvert_TextChanged);
+            // 
+            // btnAdd3
+            // 
+            this.btnAdd3.Location = new System.Drawing.Point(163, 194);
+            this.btnAdd3.Name = "btnAdd3";
+            this.btnAdd3.Size = new System.Drawing.Size(75, 23);
+            this.btnAdd3.TabIndex = 3;
+            this.btnAdd3.Text = "Ajouter";
+            this.btnAdd3.UseVisualStyleBackColor = true;
+            this.btnAdd3.Click += new System.EventHandler(this.btnAdd3_Click);
+            // 
+            // btnQancel3
+            // 
+            this.btnQancel3.Location = new System.Drawing.Point(289, 194);
+            this.btnQancel3.Name = "btnQancel3";
+            this.btnQancel3.Size = new System.Drawing.Size(75, 23);
+            this.btnQancel3.TabIndex = 4;
+            this.btnQancel3.Text = "Annuler";
+            this.btnQancel3.UseVisualStyleBackColor = true;
+            this.btnQancel3.Click += new System.EventHandler(this.btnQancel3_Click);
+            // 
+            // btnAfficher3
+            // 
+            this.btnAfficher3.Location = new System.Drawing.Point(413, 194);
+            this.btnAfficher3.Name = "btnAfficher3";
+            this.btnAfficher3.Size = new System.Drawing.Size(75, 23);
+            this.btnAfficher3.TabIndex = 5;
+            this.btnAfficher3.Text = "Afficher";
+            this.btnAfficher3.UseVisualStyleBackColor = true;
+            this.btnAfficher3.Click += new System.EventHandler(this.btnAfficher3_Click);
+            // 
+            // dataGridViewQuestOuvert
+            // 
+            this.dataGridViewQuestOuvert.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewQuestOuvert.Location = new System.Drawing.Point(573, 118);
+            this.dataGridViewQuestOuvert.Name = "dataGridViewQuestOuvert";
+            this.dataGridViewQuestOuvert.Size = new System.Drawing.Size(169, 145);
+            this.dataGridViewQuestOuvert.TabIndex = 6;
+            this.dataGridViewQuestOuvert.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewQuestOuvert_CellContentClick);
             // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.dataGridViewQuestOuvert);
+            this.Controls.Add(this.btnAfficher3);
+            this.Controls.Add(this.btnQancel3);
+            this.Controls.Add(this.btnAdd3);
             this.Controls.Add(this.textboxqueouvert);
             this.Controls.Add(this.lblqueouvert);
             this.Name = "Form3";
             this.Text = "Form3";
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewQuestOuvert)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -66,5 +116,9 @@
 
         private System.Windows.Forms.Label lblqueouvert;
         private System.Windows.Forms.TextBox textboxqueouvert;
+        private System.Windows.Forms.Button btnAdd3;
+        private System.Windows.Forms.Button btnQancel3;
+        private System.Windows.Forms.Button btnAfficher3;
+        private System.Windows.Forms.DataGridView dataGridViewQuestOuvert;
     }
 }

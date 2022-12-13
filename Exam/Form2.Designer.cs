@@ -39,7 +39,7 @@
             this.textBoxPropos1 = new System.Windows.Forms.TextBox();
             this.textBoxPropos3 = new System.Windows.Forms.TextBox();
             this.textBoxPropos2 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBoxQuest = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewQcm)).BeginInit();
             this.SuspendLayout();
             // 
@@ -143,19 +143,20 @@
             this.textBoxPropos2.TabIndex = 10;
             this.textBoxPropos2.TextChanged += new System.EventHandler(this.textBoxPropos2_TextChanged);
             // 
-            // textBox4
+            // textBoxQuest
             // 
-            this.textBox4.Location = new System.Drawing.Point(199, 18);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 20);
-            this.textBox4.TabIndex = 11;
+            this.textBoxQuest.Location = new System.Drawing.Point(200, 9);
+            this.textBoxQuest.Name = "textBoxQuest";
+            this.textBoxQuest.Size = new System.Drawing.Size(100, 20);
+            this.textBoxQuest.TabIndex = 11;
+            this.textBoxQuest.TextChanged += new System.EventHandler(this.textBoxQuest_TextChanged);
             // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.textBoxQuest);
             this.Controls.Add(this.textBoxPropos2);
             this.Controls.Add(this.textBoxPropos3);
             this.Controls.Add(this.textBoxPropos1);
@@ -188,6 +189,6 @@
         private System.Windows.Forms.TextBox textBoxPropos1;
         private System.Windows.Forms.TextBox textBoxPropos3;
         private System.Windows.Forms.TextBox textBoxPropos2;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox textBoxQuest;
     }
 }

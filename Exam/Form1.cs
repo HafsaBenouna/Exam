@@ -54,8 +54,8 @@ namespace Exam
         {
             cnx.Open();
             cmd.Connection = cnx;
-            cmd.CommandText = "insert into Examen(dateDebut, DateFin , matiere) values('" + textBoxDateDebut.Text + "','" + textBoxDateFin.Text + "','" + textBoxMatiere.Text + "')";
-           // cmd.ExecuteNonQuery();
+            cmd.CommandText = "insert into exam(dateDebut, DateFin , matiere) values('" + textBoxDateDebut.Text + "','" + textBoxDateFin.Text + "','" + textBoxMatiere.Text + "')";
+            cmd.ExecuteNonQuery();
             cnx.Close();
         }
 
@@ -79,8 +79,6 @@ namespace Exam
 
         private void creerUnExamToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            var myform = new Form1();
-            myform.Show();
         }
 
         private void créerQuestionOuvertToolStripMenuItem_Click(object sender, EventArgs e)
